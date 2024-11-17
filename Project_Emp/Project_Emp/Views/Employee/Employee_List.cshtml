@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Project_Emp.Models.Employee>
+
+@{
+    ViewBag.Title = "Employee List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <h1 class="text-center bg-success text-light p-3 rounded">
+        EMPLOYEE MANAGEMENT SYSTEM
+    </h1>
+
+    <h3 class="text-center bg-warning text-light p-2 rounded">
+        All Employee List
+    </h3>
+
+    <div class="mt-4">
+        <table class="table table-hover table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Employee Name</th>
+                    <th>Email</th>
+                    <!-- Uncomment if needed -->
+                    <!-- <th>City</th>
+                    <th>Designation</th>
+                    <th>Salary</th> -->
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.id</td>
+                        <td>@item.name</td>
+                        <td>@item.email</td>
+                        <!-- Uncomment if needed -->
+                        <!-- <td>@item.city</td>
+                        <td>@item.designation</td>
+                        <td>@item.salary</td> -->
+                        <td>
+                            @Html.ActionLink("Details", "Details", new { id = item.id }, new { @class = "btn btn-info btn-sm" }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "btn btn-danger btn-sm" })
+                            @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "btn btn-warning btn-sm" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="text-center">
+        <a href="@Url.Action("Index", "Employee")" class="btn btn-outline-warning">
+            Back To Home
+        </a>
+    </div>

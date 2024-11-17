@@ -1,0 +1,160 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .hero-section {
+        text-align: left;
+        padding: 50px 15px; /* Adjusted padding for smaller screens */
+        background-color: #000;
+    }
+
+        .hero-section h1 {
+            font-size: 2.5rem; /* Adjusted for responsiveness */
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .hero-section .highlight {
+            color: #fdd835;
+            font-size: 3rem; /* Adjusted for responsiveness */
+            text-decoration: underline;
+        }
+
+        .hero-section p {
+            font-size: 1rem; /* Adjusted for responsiveness */
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .hero-section .btn {
+            margin-right: 10px;
+            padding: 10px 20px; /* Adjusted for responsiveness */
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        }
+
+        .hero-section .btn-primary {
+            background-color: #fdd835;
+            color: #000;
+            border: none;
+        }
+
+            .hero-section .btn-primary:hover {
+                background-color: #fff; /* White background for hover */
+                color: #000; /* Black text for hover */
+            }
+
+        .hero-section .btn-outline-light {
+            border: 2px solid #fdd835;
+            color: #fdd835;
+            background-color: transparent;
+        }
+
+            .hero-section .btn-outline-light:hover {
+                background-color: #fff; /* White background for hover */
+                color: #000; /* Black text for hover */
+                border-color: #fdd835; /* Maintain the original border color */
+            }
+
+    .statistics {
+        display: flex;
+        flex-wrap: wrap; /* Allows wrapping of items */
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+        .statistics .stat-item {
+            text-align: center;
+            flex: 1 1 200px; /* Allows items to grow and shrink, and sets a base width */
+            margin: 10px;
+        }
+
+            .statistics .stat-item h3 {
+                font-size: 1.5rem; /* Adjusted for responsiveness */
+                font-weight: bold;
+                margin-bottom: 10px;
+                color: #fdd835;
+            }
+
+            .statistics .stat-item p {
+                font-size: 1rem; /* Adjusted for responsiveness */
+                color: #fff;
+            }
+
+    .phone-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%; /* Adjusted to be responsive */
+        max-width: 500px; /* Maximum width */
+        transform: translateY(-20%);
+    }
+
+    .nav-link {
+        color: #fdd835 !important;
+    }
+
+    .navbar .navbar-brand img {
+        width: 30px; /* Adjusted for responsiveness */
+        margin-right: 10px;
+    }
+
+    .navbar-brand span {
+        color: #fdd835;
+        font-size: 1.2rem; /* Adjusted for responsiveness */
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 px-md-5">
+    <a class="navbar-brand" href="#">
+        <span>Employee Management System</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Login", "Employee")">User Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Admin", "Employee")">Admin Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Login", "Employee")">Log Out</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section class="hero-section container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1><span class="highlight">DIGITAL</span><br>EMPLOYEE<br>TRACKING SYSTEM</h1>
+            <p>Next-Gen Employee Management System: Automating HR Processes. Advanced Employee Tracking and Management System.</p>
+            @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+            @Html.ActionLink("Employee List", "Employee_List", null, new { @class = "btn btn-primary" })
+        </div>
+        <div class="col-md-6">
+            <!-- Optionally include an image here if needed -->
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-center text-light py-3">
+    <p>&copy; 2024. All rights reserved.</p>
+</footer>

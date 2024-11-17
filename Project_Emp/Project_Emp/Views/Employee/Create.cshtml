@@ -1,0 +1,135 @@
+﻿@model Project_Emp.Models.Employee
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .info-label {
+        font-size: 1.25rem; /* Adjust font size as needed */
+        font-weight: 600; /* Adjust font weight as needed */
+    }
+</style>
+
+<div class="container my-5">
+    <h1 class="text-center bg-success text-light p-3 rounded">
+        EMPLOYEE MANAGEMENT SYSTEM
+    </h1>
+
+    <h3 class="text-center bg-warning text-light p-2 rounded mb-4">
+        Add New Employee
+    </h3>
+
+    @using (Html.BeginForm("Create", "Employee", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(false)
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <div class="bg-info p-3 text-light rounded info-label">
+                    Employee ID
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="bg-light p-3 rounded border">
+                    @Html.EditorFor(model => model.id, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.id)
+                </div>
+            </div>
+        </div>
+
+          <div class="row mb-3">
+            <div class="col-md-4">
+                <div class="bg-info p-3 text-light rounded info-label">
+                    Employee Name
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="bg-light p-3 rounded border">
+                    @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.name)
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <div class="bg-info p-3 text-light rounded info-label">
+                    Employee Email
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="bg-light p-3 rounded border">
+                    @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.email)
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <div class="bg-info p-3 text-light rounded info-label">
+                    Employee City
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="bg-light p-3 rounded border">
+                    @Html.EditorFor(model => model.city, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.city)
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <div class="bg-info p-3 text-light rounded info-label">
+                    Employee Designation
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="bg-light p-3 rounded border">
+                    @Html.EditorFor(model => model.designation, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.designation)
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <div class="bg-info p-3 text-light rounded info-label">
+                    Employee Salary
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="bg-light p-3 rounded border">
+                    @Html.EditorFor(model => model.salary, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.salary)
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <input type="submit" value="Create" class="btn btn-success" />
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2">
+                <div class="col-auto">
+                    <a href="@Url.Action("Employee_List", "Employee")" class="btn btn-outline-warning">
+                        Back To List
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2">
+                <div class="col-auto">
+                    <a href="@Url.Action("Index", "Employee")" class="btn btn-outline-success">
+                        Back To Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

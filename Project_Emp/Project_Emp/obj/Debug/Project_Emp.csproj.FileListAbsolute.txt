@@ -1,0 +1,109 @@
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\Project_Emp.dll.config
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\Project_Emp.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\Project_Emp.pdb
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\Antlr3.Runtime.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\EntityFramework.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\Microsoft.Web.Infrastructure.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\Newtonsoft.Json.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\System.Web.Mvc.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\System.Web.Optimization.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\System.Web.Providers.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\System.Web.Razor.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\System.Web.WebPages.Deployment.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\System.Web.WebPages.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\System.Web.WebPages.Razor.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\WebGrease.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\EntityFramework.xml
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\Newtonsoft.Json.xml
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\System.Web.Mvc.xml
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\System.Web.Razor.xml
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\System.Web.WebPages.xml
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\System.Web.WebPages.Deployment.xml
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\System.Web.WebPages.Razor.xml
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\obj\Debug\Project_Emp.csprojResolveAssemblyReference.cache
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\obj\Debug\Project_Emp.dll
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\obj\Debug\Project_Emp.pdb
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\obj\Debug\Project_Emp.Migrations.InitialCreate.resources
+c:\users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\obj\Debug\Project_Emp.csproj.GenerateResource.Cache
+C:\Users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\EntityFramework.SqlServer.dll
+C:\Users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\bin\EntityFramework.SqlServer.xml
+C:\Users\neera\documents\visual studio 2013\Projects\Project_Emp\Project_Emp\obj\Debug\Project_Emp.Migrations.InitialCreate1.resources
+E:\Project_Emp\Project_Emp\bin\Project_Emp.dll.config
+E:\Project_Emp\Project_Emp\bin\Project_Emp.dll
+E:\Project_Emp\Project_Emp\bin\Project_Emp.pdb
+E:\Project_Emp\Project_Emp\bin\Antlr3.Runtime.dll
+E:\Project_Emp\Project_Emp\bin\EntityFramework.dll
+E:\Project_Emp\Project_Emp\bin\EntityFramework.SqlServer.dll
+E:\Project_Emp\Project_Emp\bin\Microsoft.Web.Infrastructure.dll
+E:\Project_Emp\Project_Emp\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\Project_Emp\Project_Emp\bin\Newtonsoft.Json.dll
+E:\Project_Emp\Project_Emp\bin\System.Net.Http.Formatting.dll
+E:\Project_Emp\Project_Emp\bin\System.Web.Http.dll
+E:\Project_Emp\Project_Emp\bin\System.Web.Http.WebHost.dll
+E:\Project_Emp\Project_Emp\bin\System.Web.Mvc.dll
+E:\Project_Emp\Project_Emp\bin\System.Web.Optimization.dll
+E:\Project_Emp\Project_Emp\bin\System.Web.Providers.dll
+E:\Project_Emp\Project_Emp\bin\System.Web.Razor.dll
+E:\Project_Emp\Project_Emp\bin\System.Web.WebPages.Deployment.dll
+E:\Project_Emp\Project_Emp\bin\System.Web.WebPages.dll
+E:\Project_Emp\Project_Emp\bin\System.Web.WebPages.Razor.dll
+E:\Project_Emp\Project_Emp\bin\WebGrease.dll
+E:\Project_Emp\Project_Emp\bin\EntityFramework.xml
+E:\Project_Emp\Project_Emp\bin\EntityFramework.SqlServer.xml
+E:\Project_Emp\Project_Emp\bin\Newtonsoft.Json.xml
+E:\Project_Emp\Project_Emp\bin\System.Net.Http.Formatting.xml
+E:\Project_Emp\Project_Emp\bin\System.Web.Http.xml
+E:\Project_Emp\Project_Emp\bin\System.Web.Http.WebHost.xml
+E:\Project_Emp\Project_Emp\bin\System.Web.Mvc.xml
+E:\Project_Emp\Project_Emp\bin\System.Web.Razor.xml
+E:\Project_Emp\Project_Emp\bin\System.Web.WebPages.xml
+E:\Project_Emp\Project_Emp\bin\System.Web.WebPages.Deployment.xml
+E:\Project_Emp\Project_Emp\bin\System.Web.WebPages.Razor.xml
+E:\Project_Emp\Project_Emp\obj\Debug\Project_Emp.csprojResolveAssemblyReference.cache
+E:\Project_Emp\Project_Emp\obj\Debug\Project_Emp.Migrations.InitialCreate.resources
+E:\Project_Emp\Project_Emp\obj\Debug\Project_Emp.Migrations.InitialCreate1.resources
+E:\Project_Emp\Project_Emp\obj\Debug\Project_Emp.csproj.GenerateResource.Cache
+E:\Project_Emp\Project_Emp\obj\Debug\Project_Emp.dll
+E:\Project_Emp\Project_Emp\obj\Debug\Project_Emp.pdb
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\Project_Emp.dll.config
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\Project_Emp.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\Project_Emp.pdb
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\Antlr3.Runtime.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\EntityFramework.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\EntityFramework.SqlServer.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\Newtonsoft.Json.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Net.Http.Formatting.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.Http.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.Http.WebHost.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.Mvc.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.Optimization.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.Providers.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.Razor.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.WebPages.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\WebGrease.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\EntityFramework.xml
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\EntityFramework.SqlServer.xml
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\Newtonsoft.Json.xml
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Net.Http.Formatting.xml
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.Http.xml
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.Http.WebHost.xml
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.Mvc.xml
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.Razor.xml
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.WebPages.xml
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\obj\Debug\Project_Emp.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\obj\Debug\Project_Emp.Migrations.InitialCreate.resources
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\obj\Debug\Project_Emp.Migrations.InitialCreate1.resources
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\obj\Debug\Project_Emp.csproj.GenerateResource.Cache
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\obj\Debug\Project_Emp.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\obj\Debug\Project_Emp.pdb
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\x86\leptonica-1.82.0.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\x86\tesseract50.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\x64\leptonica-1.82.0.dll
+C:\Users\Dell\Documents\Project_Emp\Project_Emp\bin\x64\tesseract50.dll
